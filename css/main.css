@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+}
+@media only screen and (max-device-width: 600px){
+	.logo{
+		background-size:contain;
+	}
+	.passage{
+		width: 300px;
+	}
+	.title .name{
+		font-size:15px;
+	}
+	.list{
+		width: 300px;
+		font-size:15px;
+	}
+}
+@media only screen and (min-width: 600px) {
+	.logo{
+		width: 600px;
+	}
+	.nav_menu{
+		width: 400px;
+	}
+	.passage{
+		width: 800px;
+		font-size: 20px;
+	}
+	.title .name{
+		font-size: 45px;
+	}
+	.author .name{
+		font-size: 30px;
+	}
+	.list{
+		width: 500px;
+		font-size: 20px;
+	}
+		
+}
+.fixed{
+	position:fixed;
+	margin-top:-210px;
+	background-color:white;
+}
+.header{
+	height: 250px;
+	width:100%;
+	background-color: #ffffff;
+}
+.logo{
+	height: 210px;
+	margin: 0 auto;
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+}
+.nav{
+	height: 40px;
+	width: 100%;
+	/*background-color: #000000;*/
+
+}
+.nav_menu{
+	height: 40px;
+	margin: 0 auto;
+	border-bottom: 1px solid #444444;
+}
+.nav_menu li{
+	display: block;
+	float: left;
+	width: 25%;
+	height: 40px;
+	text-align: center;
+	list-style: none;
+	line-height: 40px;
+	
+}
+.nav_menu a{
+	color:#444444;
+	font-family: "Arial";
+}
+.passage{
+	margin: 0 auto;
+	font-family: "AppleGothic";
+	line-height: 40px;
+	border-bottom: 1px solid #444444;
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+.passage .footer{
+	width: 100%;
+}
+.footer div{
+	float: right;
+	height: 20px;
+	font-size: 15px;
+	margin: auto 5px;
+	line-height: 24px;
+}
+.title{
+	margin-bottom: 30px;
+}
+.title .name{
+	font-family: Wawati SC;
+	text-align: center;
+	line-height: 45px;
+	color: #444444；
+
+}
+.author{
+	margin-top: 30px;
+	height: 40px;
+	width: 100%;
+}
+.author .name{
+	height: 40px;
+	float: right;
+	
+}
+.footer .num,.time{
+	color: #888888;
+}
+.dislike_icon,.like_icon{
+	height: 20px;
+	width: 20px;
+	font-weight: bold;
+	line-height: 22px;
+	text-align: center;
+	border: 2px solid #444444;
+
+}
+.dislike_icon,.like_icon:hover{
+	cursor: pointer;
+}
+.main,.email,.list,.qr{
+	padding-top: 70px;
+}
+.email{
+	width: 200px;
+	height: 100px;
+	margin: 0 auto;
+	font-family: "AppleGothic";
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+}
+.list{
+	height: 100px;
+	margin: 0 auto;
+	margin-top: -50px;
+	font-family: "AppleGothic";
+	line-height: 40px;
+}
+.list li a{
+	color: #000000;
+	text-decoration: underline;
+	
+}
+.qr{
+	margin: 0 auto;
+	display:block;
+}
+.unclicked{
+        color: #000000;
+}
+.clicked{
+	background-color:black;
+	color: white;
+}
+
+
+
